@@ -1,0 +1,13 @@
+<div style="text-align: center">
+  <p> Do you want to remove this patient from the list? </p>
+  <p *ngIf="patient">{{patient.name}} {{patient.surname}} - Patient ID: {{patientId}}</p>
+  <div>
+    <button class="btn btn-primary" (click)="cancel()">
+      Cancel
+    </button>
+    <button style="margin-left: 10px" class="btn btn-danger" (click)="delete()">
+      Remove
+    </button>
+  </div>
+</div>
+

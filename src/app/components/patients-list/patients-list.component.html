@@ -1,0 +1,25 @@
+<table class="blueTable">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Birthdate</th>
+    <th>Gender</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let patient of patients">
+    <td>{{patient.name}}</td>
+    <td>{{patient.surname}}</td>
+    <td>{{patient.birthDate | date}}</td>
+    <td>{{patient.gender}}</td>
+    <td>
+      <button (click)="editPatient(patient.id)" [style]="{marginRight: '4px'}" class="btn btn-primary">Edit</button>
+      <button (click)="deletePatient(patient.id)" class="btn btn-danger">Delete</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-primary" [routerLink]="['0']">Add new</button>

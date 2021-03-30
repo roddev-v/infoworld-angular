@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Patient 1",
+    "surname": "Patient 1 Surname",
+    "birthDate": "1997-03-12T09:25:01.684Z",
+    "gender": "M"
+  },
+  {
+    "id": 2,
+    "name": "Patient 2",
+    "surname": "Patient 2 Surname",
+    "birthDate": "1999-03-30T09:25:01.684Z",
+    "gender": "M"
+  },
+  {
+    "id": 3,
+    "name": "Patient 3",
+    "surname": "Patient 3 Surname",
+    "birthDate": "2001-12-10T09:25:01.684Z",
+    "gender": "F"
+  },
+  {
+    "id": 4,
+    "name": "Patient 4",
+    "surname": "Patient 4 Surname",
+    "birthDate": "2006-09-04T09:25:01.684Z",
+    "gender": "M"
+  },
+  {
+    "id": 5,
+    "name": "Patient 5",
+    "surname": "Patient 5 Surname",
+    "birthDate": "2011-09-08T09:25:01.684Z",
+    "gender": "F"
+  },
+  {
+    "id": 6,
+    "name": "Patient 1",
+    "surname": "Patient 1 Surname",
+    "birthDate": "1992-01-31T09:25:01.684Z",
+    "gender": "M"
+  }
+]

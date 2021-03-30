@@ -1,0 +1,30 @@
+<p>patient-details works!</p>
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <div>
+    <input type="text" formControlName="name" placeholder="Name">
+  </div>
+  <div>
+    <input type="text" formControlName="surname" placeholder="Surname">
+  </div>
+  <div>
+    <select formControlName="gender">
+      <option value="M">M</option>
+      <option value="F">F</option>
+    </select>
+  </div>
+  <div>
+    <input type="date"
+           max="{{today | date:'yyyy-MM-dd'}}"
+           formControlName="birthDate">
+  </div>
+  <div>
+    <input type="number" formControlName="cnp"
+           placeholder="CNP">
+  </div>
+  <div>
+    <input type="tel" formControlName="tel"
+           placeholder="Telephone">
+  </div>
+  <button [disabled]="form.invalid"
+          type="submit">Submit</button>
+</form>
